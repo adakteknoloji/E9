@@ -1,0 +1,8 @@
+#ifndef DVZ_DOVIZ_KURLARI_RAPORU_OPEN_H
+#define DVZ_DOVIZ_KURLARI_RAPORU_OPEN_H
+
+class QString;
+
+QString OPEN_DVZ_KUR_RAPORU ( QString p_date );
+
+#endif // DVZ_DOVIZ_KURLARI_RAPORU_OPEN_H

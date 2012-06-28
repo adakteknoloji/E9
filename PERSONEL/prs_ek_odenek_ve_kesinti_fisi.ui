@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PRS_EK_ODENEK_VE_KESINTI_FISI</class>
+ <widget class="QDialog" name="PRS_EK_ODENEK_VE_KESINTI_FISI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1033</width>
+    <height>687</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>5</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2" rowstretch="0,10,60" columnstretch="1000,0">
+   <property name="margin">
+    <number>3</number>
+   </property>
+   <item row="0" column="0" colspan="2">
+    <widget class="QWidget" name="kernel_buttons_widget" native="true"/>
+   </item>
+   <item row="1" column="0">
+    <layout class="QGridLayout" name="gridLayout" rowstretch="1,1,1,1,1,1" columnstretch="1,5,5,5,5,50">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Ödenek Adı</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Bordro Dönemi</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Açıklama</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="comboBox_bordro_donemi_ay"/>
+     </item>
+     <item row="2" column="2">
+      <widget class="QComboBox" name="comboBox_bordro_donemi_yil"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QCheckBox" name="checkBox_ssk_kesintisi">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>SSK Kesintisi</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2" colspan="2">
+      <widget class="QCheckBox" name="checkBox_damga_vergisi_kesintisi">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Damga Vergisi Kesintisi</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1" colspan="4">
+      <widget class="QLimitedTextEdit" name="limitedTextEdit_aciklama"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Tutar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QCommaEdit" name="commaEdit_tutar">
+       <property name="whatsThis">
+        <string>Sayilari formatina(Or:1,000,234.50) donusturur. </string>
+       </property>
+       <property name="QCommaEdit" stdset="0">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>100</width>
+         <height>100</height>
+        </rect>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="comboBox_yuzde_mi"/>
+     </item>
+     <item row="4" column="4">
+      <widget class="QCheckBox" name="checkBox_gelir_vergisi_kesintisi">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Gelir Vergisi Kesintisi</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Tarih</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" colspan="2">
+      <widget class="QAdakDate" name="adakDate_odenek_kesinti_tarihi" native="true">
+       <property name="minimumSize">
+        <size>
+         <width>242</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>242</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="whatsThis">
+        <string>Tarih WidgetÄ± </string>
+       </property>
+       <property name="QAdakDate" stdset="0">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>100</width>
+         <height>100</height>
+        </rect>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="5">
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="0" column="1" colspan="3">
+      <widget class="QLineEdit" name="lineEdit_odenek_kesinti_adi"/>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <widget class="QTableWidget" name="table_widget"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QAdakDate</class>
+   <extends>QWidget</extends>
+   <header>QAdakDate.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QCommaEdit</class>
+   <extends>QLineEdit</extends>
+   <header>QCommaEdit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QLimitedTextEdit</class>
+   <extends>QTextEdit</extends>
+   <header>QLimitedTextEdit.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>lineEdit_odenek_kesinti_adi</tabstop>
+  <tabstop>adakDate_odenek_kesinti_tarihi</tabstop>
+  <tabstop>comboBox_bordro_donemi_ay</tabstop>
+  <tabstop>comboBox_bordro_donemi_yil</tabstop>
+  <tabstop>comboBox_yuzde_mi</tabstop>
+  <tabstop>commaEdit_tutar</tabstop>
+  <tabstop>checkBox_ssk_kesintisi</tabstop>
+  <tabstop>checkBox_damga_vergisi_kesintisi</tabstop>
+  <tabstop>checkBox_gelir_vergisi_kesintisi</tabstop>
+  <tabstop>limitedTextEdit_aciklama</tabstop>
+  <tabstop>table_widget</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

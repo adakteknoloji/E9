@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SABIT_DEGERLER>
+    <SINGLE sgk_aciklama_tarihi="2011.01.27" issizlik_sig_isci_yuzdesi="0.01" issizlik_sig_isveren_yuzdesi="0.02" sakatlik_ind_derece_1_tutari="700" sakatlik_ind_derece_2_tutari="350" sakatlik_ind_derece_3_tutari="170" tehlike_sinifi="1" ssk_primi_isci_yuzdesi="0.14" ssk_primi_isveren_yuzdesi="0.195" ssk_taban_degeri="837.00" ssk_tavan_degeri="5440.50" ssk_16_yas_alti_asgari_ucret="715.50" ssk_16_yas_ustu_asgari_ucret="837.00" damga_vergisi="0.0066" gecerli_gelir_vergisi_dilimi_sayisi="5"/>
+    <GELIR_VERGISI_DILIMLERI_BASLANGIC_TUTARLARI value_0="0.0" value_1="9400" value_2="23000" value_3="53000" value_4="53000"/>
+    <GELIR_VERGISI_DILIMLERI_BITIS_TUTARLARI value_0="9400" value_1="23000" value_2="53000" value_3="999999999" value_4="999999999"/>
+    <GELIR_VERGISI_YUZDELERI value_0="0.15" value_1="0.20" value_2="0.27" value_3="0.35" value_4="0.35"/>
+    <EVLI_ES_CALISMIYOR_ASG_GEC_INDIRIMLERI value_0="71.69" value_1="80.65" value_2="89.61" value_3="95.58" value_4="101.55"/>
+    <EVLI_ES_CALISIYOR_ASG_GEC_INDIRIMLERI value_0="59.74" value_1="68.70" value_2="77.66" value_3="83.63" value_4="89.61"/>
+    <BEKAR_ASG_GEC_INDIRIMLERI value_0="54.68" value_1="62.88" value_2="71.08" value_3="76.55" value_4="82.01"/>
+    <IHBAR_TAZMINATI_TUTARLARI_0 baslangic_tarihi_turu="1" baslangic_tarihi_orj_degeri="0" baslangic_tarihi_ay_degeri="0" bitis_tarihi_turu="1" bitis_tarihi_orj_degeri="6" bitis_tarihi_ay_degeri="6" tazminat_hafta_degeri="2"/>
+    <IHBAR_TAZMINATI_TUTARLARI_1 baslangic_tarihi_turu="1" baslangic_tarihi_orj_degeri="6" baslangic_tarihi_ay_degeri="6" bitis_tarihi_turu="2" bitis_tarihi_orj_degeri="1.5" bitis_tarihi_ay_degeri="18" tazminat_hafta_degeri="4"/>
+    <IHBAR_TAZMINATI_TUTARLARI_2 baslangic_tarihi_turu="2" baslangic_tarihi_orj_degeri="1.5" baslangic_tarihi_ay_degeri="18" bitis_tarihi_turu="2" bitis_tarihi_orj_degeri="3" bitis_tarihi_ay_degeri="36" tazminat_hafta_degeri="6"/>
+    <IHBAR_TAZMINATI_TUTARLARI_3 baslangic_tarihi_turu="2" baslangic_tarihi_orj_degeri="3" baslangic_tarihi_ay_degeri="36" bitis_tarihi_turu="2" bitis_tarihi_orj_degeri="100" bitis_tarihi_ay_degeri="1200" tazminat_hafta_degeri="8"/>
+    <SINGLE tehlike_sinifi_isci_yuzdesi="0.14" tehlike_sinifi_isveren_yuzdesi="0.185" ssk_isveren_taban_deger="837.00" ssk_isveren_tavan_deger="5440.50" prs_sgdp_primi_isci_yuzdesi="0.075" prs_sgdp_primi_isveren_yuzdesi="0.225" muh_fis_hesaplari_birlestir="0" isy_5510_nolu_kanuna_tabi_mi="0" isy_5510_nolu_kanun_yuzdesi="5.00" haftalik_calisilan_gun_sayisi="5.00" gunluk_yemek_yardimi_yuzdesi="6.00"/>
+</SABIT_DEGERLER>

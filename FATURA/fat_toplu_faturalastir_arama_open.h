@@ -1,0 +1,8 @@
+#ifndef FAT_TOPLU_FATURALASTIRMA_OPEN_H
+#define FAT_TOPLU_FATURALASTIRMA_OPEN_H
+
+class   QWidget;
+
+void        OPEN_FAT_TOPLU_FATURALASTIR_ARAMA           ( QWidget * p_parent    );
+
+#endif // FAT_TOPLU_FATURALASTIRMA_OPEN_H

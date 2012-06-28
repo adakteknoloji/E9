@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MUH_HESAP_PLANI</class>
+ <widget class="QDialog" name="MUH_HESAP_PLANI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>958</width>
+    <height>583</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Hesap Planı</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" columnstretch="100">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetNoConstraint</enum>
+   </property>
+   <property name="margin">
+    <number>3</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2" rowstretch="50,0" columnstretch="89">
+      <property name="margin">
+       <number>6</number>
+      </property>
+      <item row="1" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,0,0,1,1">
+        <item>
+         <widget class="QPushButton" name="btn_ana_hesap_ekle">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="toolTip">
+           <string>Hesap Planına ana hesap ekleme ekranını açar.</string>
+          </property>
+          <property name="text">
+           <string>Ana Hesap Ekle</string>
+          </property>
+          <property name="shortcut">
+           <string>F7</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_sirket">
+          <property name="text">
+           <string>Şirket</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="combo_box_sirket_turu"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_alt_hesap_ekle">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="toolTip">
+           <string>Seçili olan hesaba alt hesap ekleme ekranını açar.</string>
+          </property>
+          <property name="text">
+           <string>Alt Hesap Ekle</string>
+          </property>
+          <property name="shortcut">
+           <string>F4</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_hesabi_sil">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="toolTip">
+           <string>Seçili olan hesabı siler.</string>
+          </property>
+          <property name="text">
+           <string>Hesabı Sil</string>
+          </property>
+          <property name="shortcut">
+           <string>F5</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="0">
+       <widget class="QTreeWidget" name="tree_widget_hesap_plani">
+        <column>
+         <property name="text">
+          <string notr="true">1</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>tree_widget_hesap_plani</tabstop>
+  <tabstop>combo_box_sirket_turu</tabstop>
+  <tabstop>btn_alt_hesap_ekle</tabstop>
+  <tabstop>btn_hesabi_sil</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

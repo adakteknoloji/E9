@@ -1,0 +1,64 @@
+Büyük projelerde programcıya bazı kolaylıklar sağlamak gerekir.
+
+* Mantık gerektirmeyen , zaman kaybetmesine sebep olacak rutin işlerden kurtarmak
+
+* Bir programcının yazdığı koda bir başkasının çok çabuk müdahale edebilmesi sağlayacak standartlar
+
+* Bir hata esnasında mümkün olan en kısa zamanda hatayı tespit edecek sistem
+
+Daha bir çok sayılabilir. Bu ve benzer amaçlarla K9 ' da KERNEL MEKANİZMALARI kullandık.
+
+
+
+K9 ' da mantık gerektirmeyen tüm işi KERNEL ' ların yapması amaçlandı.
+
+Bir örnekler açıklamaya çalışalım. Stok Takip Programı yazdığımızı düşünelim.
+2 ekranı düşünelim. 
+
+1 - Stok Kartı Ekranı 
+
+    Stok Kodu , Ürün  İsmi , Birimi vs alınmalı , veritabanına kaydedilmeli. 
+    Veritabanında arama yapılabilmeli.
+    Mevcut kayıtlarda günceleme yapılabiliyor.
+    Kayıtlar silinebilmeli.
+
+2 - Depo Bilgileri Ekranı.
+
+    Depo Kodu , Depo İsmi , Kapasitesi vs alınmalı , veritabanına kaydedilmeli.
+
+    Veritabanında arama yapılabilmeli.
+    Mevcut kayıtlarda günceleme yapılabiliyor.
+    Kayıtlar silinebilmeli.
+
+Aslında bu 2 ekranın programlama kodlarının %50'sinden fazlası ortaktır. 
+Örneğin kayıt silme esnasındaki "MANTIĞI" karşılaştıralım.
+
+//            Ekranda bir SİLME BUTONU olmalı. Bu tıklandığı zaman ....
+//            
+//            1.Adım : Ekranda veritabanına kaydedilmiş bir kayıt
+//            
+//                A - Yoksa : Ekranı boşalt. KULLANICIDAN YENİ EMİR BEKLE.
+//                B - Varsa : 2.adıma geç.
+//            
+//            2.Adım : Evet , ekranda veritabanında kayıtlı bir kayıt var ve kullanıcı bunu silmek istiyor.
+//                Kaydı silmek için LOCK ET.
+//                A - Lock edilemedi : Uyarı ver. Birşey yapma. KULLANICIDAN YENİ EMİR BEKLE.
+//                B - Lock edildii   : 3.Adıma geç
+//            
+//            3.Adım : Evet , ekranda veritabanında kayıtlı bir kayıt var ve kullanıcı bunu silmek istiyor.
+//                Kullanıcıdan ONAY iste.
+//                A - Onay Gelmedi : Birşey yapma. KULLANICIDAN YENİ EMİR BEKLE.
+//                B - Onay Geldi    : 4.Adıma geç
+//            
+//            4.Adım : Kaydın silinip silinemeyeceğini kontrol et.
+//                A - Silinemez : Uyarı ver. KULLANICIDAN YENİ EMİR BEKLE.
+//                B - Silinebilir : Veritabanından gereken kayıtları sil. KULLANICIDAN YENİ EMİR BEKLE.
+
+Bu akış değişmez. İster STOK KARTI silin , isterseniz DEPO silin. 
+İste bu ortak mantık K9 ' da KERNEL ' lar tarafından kontrol edilir.
+
+Programcı sadece farklılıkları , kodları düşünür.
+Böylece DAHA AZ kodlar , DAHA AZ hata yapar ve DAHA HIZLI üretir.
+
+K9 ' da 10'a yakın KERNEL kullanılmıştır. Her bir KERNEL ' ın görevi , kullanım amacı farklıdır.
+Lütfen önce KERNEL belgelerini okuyun.

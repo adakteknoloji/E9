@@ -1,0 +1,8 @@
+#ifndef PRS_ISTEN_AYRILANLAR_ARAMA_OPEN_H
+#define PRS_ISTEN_AYRILANLAR_ARAMA_OPEN_H
+
+class QWidget;
+
+int           SHOW_PRS_ISTEN_AYRILANLAR_ARAMA          ( QWidget * parent );
+
+#endif // PRS_ISTEN_AYRILANLAR_ARAMA_OPEN_H

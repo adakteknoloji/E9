@@ -1,0 +1,217 @@
+Büyük projelerde herkes aynı NOTASYONU kullanmak zorundadır. K9' da kullandığımız notasyon aşağıda.
+
+
+
+1 - DEĞİŞKEN İSİMLERİ
+---------------------
+
+    Normal değişken isimleri küçük harflerden ve _ (underscore/altçizgi) ' den oluşur. Değişken içerdiği bilgiyi açık bir şekilde anlatmalıdır.
+
+    Yanlış İsimler  : es, ElmaSayisi , elmasayisi , esayisi 
+
+    Doğru İsim      : elma_sayisi
+
+
+2 - == , != , && , ||
+---------------------
+
+   If deyimleri esnasında == , != , && ve || kullanılmaz.
+
+       ==    yerine  EQ
+       !=    yerine  NE
+       &&    yerine  AND
+       ||    yerine  OR
+
+   kullanılmalıdır. Bunlar sisteme adak_defines.h ile tanıtılmışlardır , ayrıca tanıtmanıza gerek yoktur.
+
+
+
+3 - BLOK PARANTEZLERİ  { }
+--------------------------------
+
+   Blok parantezleri { } daima deyimin sonunda başlar ve bittiği yerde bloğun hizasında biter. 
+   Tek satir veya işlem dahi olsa tüm if ,else ,for  , while blok içine alınmalıdır.
+
+   Örnekler  :
+
+       if ( a EQ b) {
+           a = a * 2;
+       }
+
+       if (a ==b) a = a * 2;  -----> YANLIŞ , kullanmıyoruz.
+
+       for ( i = 0; i < 5; i++) {
+           j = j * 2;
+       }
+
+       for (i=0; i < 5; i++) j = j * 2;  --------> YANLIŞ , kullanmıyoruz.
+
+
+
+4 - DÖNGÜ / SAYAÇ DEĞİŞKENLERİ 
+------------------------------
+
+
+   Döngü değişkenleri olarak sırasıyla i , j ve k kullanılır. 
+   Bir sonraki harfin kullanılması bir önceki harfin kullanılmış olduğunu gösterir.
+
+   Örnekler :
+
+       for (i=0; i < 5; i++) {
+           ..........................
+       }
+
+       for (i=0; i < 5; i++) {
+           ..........................
+           for (j = 0; j < 5; j++) {
+               ..........................
+               ..........................
+           }
+           ..........................
+       }
+        
+
+5 - FONKSİYONLAR
+----------------
+
+
+    a ) Fonksiyon isimleri BÜYÜK harf olmalıdır. 
+    b ) Kelimeler arasına _ (underscore/altçizgi) konulmalıdır.
+    c ) Fonksiyondan önce 3 satırlık fonksiyon başlatma remark ' ları olmalıdır.
+    d ) Blok başlatma ilk satırda yapılır.
+
+
+    Yanlış örnek :
+
+    int sayilaricarp  (int a, int b)  {
+    return (a * b);
+    }
+
+    Doğru Örnek :
+
+    /****************************************************************/
+    /*                              SAYILARI_CARP                                                               */
+    /****************************************************************/
+
+    int SAYILARI_CARP ( int a  , int b )
+    {
+        return (a * b);
+    }
+
+
+6 - DOSYA İSİMLERİ
+------------------
+
+    Kaynak dosya isimleri .cpp ile , include dosya isimleri .h ile , User Interface dosyaları .ui ile biter. 
+    Dosya isminde _(underscore/alt çizgi) kullanılır ve tamamen küçük harflerden oluşur. 
+    Yaptığı işi , içerdiği fonksiyonları anlatabilen bir isim olmalıdır.
+
+    Örnek :  mahsup_fisi.cpp , mahsup_fisi.h ve mahsup_fisi.ui
+
+
+
+7 - INCLUDE DOSYALARI  “.h”
+---------------------------
+
+    Include dosyaları (xxxx_yyy.h) “Hata Ayıklama / Debug” işlemi esnasında zorluk yarattığından , tek satırlık kod bile olsa , ASLA kod içermezler. 
+    Kod kısmı daima kaynak dosyada “.cpp “ dosyalarında yer alır.
+
+
+8 - VERİTABANI KURALLARI
+------------------------
+
+    Tablolardaki değişkenlerin isimleri ise küçük harflerden oluşur. Kelimelerin arasında “_(Underscore/Alt Çizgi)” olmalıdır.
+
+    Örnek :
+
+        Veritabanı Adı         :  k9
+        Tabloları              :  salonlar , ikramlar
+        Tablodaki Değişkenler  :  salon_ismi , salonun_adresi , salonun_telefonu
+
+
+9 - CLASS ve STRUCT isimlendirmesi
+----------------------------------
+
+    Class isimleri tamamen büyük harflerden oluşmalı ve kelimeler _ karakteri ile ayrılmalıdır. Örneğin:
+
+    class REPORT_TEMPLATE
+    {
+        ......
+    };
+
+10 - METHOD isimlendirmesi
+--------------------------------
+
+     Sınıf içerisindeki methodların bütün harfleri büyük olmalı ve kelimeler _ karakteri ile ayrılmalı. Örneğin:
+
+     class BATCH_REPORT
+     {
+         public:
+             void  ADD_HEADER(string header);
+     };
+
+11 - ENUM isimlendirmesi
+------------------------
+
+     Gerekmediği sürece , gerekeceği yeri henuz bulamadık , #define kullanmıyoruz. Enum ' u tercih ediyoruz.
+     Enumerationlar bütün harfleri büyük olmalı ve kelimeler _ karakteri ile ayrılmalı. Örneğin:
+
+     enum SEHIRLER 
+     {
+
+         ANKARA   = 6 ,
+         ISTANBUL = 34,
+         IZMIR    = 35
+     }
+
+12 - GİRİNTİLEME
+----------------
+
+     Her blok, için girintileme miktarı 4 boşluk karakteri olmalı.  
+     *****  Tab karakteri kesinlikle kullanılmamalı *****. 
+     Editörünüzün “Insert spaces for tabs” özelliğine bakın. 
+     Tab karakteri 2-4-8 gibi belli katlarda gittiğinden esnek girintilemeyi engelliyor (esnek girintilemeden birazdan bahsedeceğiz). 
+     Boşluk ve tab karakteri karıştırılarak kullanıldığında ise, tab karakterinin editörden editöre genişliğinin değişmesinden ötürü, 
+     bir editörde düzgün görünen kod, diğerinde felaket olabiliyor. O yüzden her editörde aynı görünen boşluk karakterini kullanmalıyız. 
+
+     Birkaç girintileme örneği:
+
+     if (! feof(fd))
+     {
+         fread(buffer, sizeof(char), CHUNK_SIZE, fd);
+     }
+
+
+     for (int i=0; i < str.length(); i++) {
+         if (is_lower(str[i])) {
+             str[i] = to_upper(str[i]);
+         }
+     }
+
+    Satır genişliği 132 karakteri geçmemeli. Kodu incelerken, gözümüz kitap okurken olduğu gibi sadece yukarıdan aşağıya doğru hareket etmeli. 
+    Yatay doğrultuda yapacağımız hareket iyice gözümüzü yoracaktır. Ayrıca bir bakışta bir satırı görebilmek için de satır genişliği 132 karakterin üzerinde olmamalı.
+
+    132 karaktere sığmayan satırlar için bir sonraki satırdan devam ederken, bir önceki satırın devamı olduğunu belirleyecek şekilde girintilemeliyiz. Örneğin:
+
+
+    void alt_hesaplari_getir ( string parent_id,
+                               string hesap_seviyesi,
+                               Group* group )
+    {
+       ...............
+    }
+
+    Yukarıdaki örnekte birinci satır sığmadığından bir alt satıra geçtik ve bir önceki satırın devamı olduğunu belirtir şekilde girintiledik. 
+    Ayrıca girintileme için boşluk karakteri kullanmamız bize bu esnekliği sağlıyor.
+
+    if, while, for gibi statementlardan sonra parantez açmadan önce bir boşluk bırakalım.
+
+
+13 - DOSYA İSİMLERİ
+-------------------
+
+
+    Dosya isimlerindeki her bir karakter küçük harf olmalı ve kelimeler birbirinden _ ile ayrılmalı. 
+    Dosya isimlerindeki büyük küçük harf karışımları, windows ve linux arasında geçişte problem yaratabilir. 
+    Örneğin Linux'ta, bir dizin içerisinde yanlışlıkla hem report_template.h hem de report_template.H var ise, bu dizini windows'a taşırken problem yaşayabilirsiniz.
+

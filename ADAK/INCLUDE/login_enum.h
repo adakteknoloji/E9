@@ -1,0 +1,37 @@
+#ifndef LOGIN_ENUM_H
+#define LOGIN_ENUM_H
+
+enum USER_STATUS {
+    USER_ON_INIT         = 0,
+    USER_ON_LOGIN_SCREEN = 1,
+    USER_LOGINNED        = 2
+};
+
+enum DB_TYPES {
+    ADAK_YONETIM = 1,
+    ADAK_PROGRAM = 2
+};
+
+// LOG TURLERI
+enum YONETIM_LOG_TURLERI {
+    LOG_BILGISAYARLAR = 1,
+    LOG_KULLANICILAR  = 2,
+    LOG_VERITABANLARI = 3,
+    LOG_PROGRAM       = 4
+};
+
+// LOG ISLEMLERI
+enum YONETIM_LOG_ISLEMLERI {
+
+    LOG_KAYIT_EKLEME            = 1,
+    LOG_KAYIT_GUNCELLEME        = 2,
+    LOG_KAYIT_SILME             = 3,
+    LOG_PROGRAMA_GIRIS          = 4,
+    LOG_PROGRAMDAN_CIKIS        = 5,
+    LOG_VERITABANI_YARATMA      = 6,
+    LOG_VERITABANI_SILME        = 7,
+    LOG_PROGRAM_TABLOSU_YARATMA = 8,
+    LOG_PROGRAM_TABLOSU_SILME   = 9
+};
+
+#endif // LOGIN_ENUM_H

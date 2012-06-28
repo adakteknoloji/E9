@@ -1,0 +1,8 @@
+#ifndef STOK_URUN_KARTI_IMPORT_OPEN_H
+#define STOK_URUN_KARTI_IMPORT_OPEN_H
+
+class QWidget;
+
+void   OPEN_STOK_URUN_KARTI_IMPORT ( QWidget * parent );
+
+#endif // STOK_URUN_KARTI_IMPORT_OPEN_H

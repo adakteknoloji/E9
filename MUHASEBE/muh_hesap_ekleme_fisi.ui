@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MUH_HESAP_EKLEME_FISI</class>
+ <widget class="QDialog" name="MUH_HESAP_EKLEME_FISI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1048</width>
+    <height>578</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Alt Hesap Ekle</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2" rowstretch="1,2,80" columnstretch="10,0">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetNoConstraint</enum>
+   </property>
+   <property name="margin">
+    <number>2</number>
+   </property>
+   <item row="2" column="0" colspan="2">
+    <widget class="QTableWidget" name="tablewidget_alt_hesaplar"/>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <widget class="QWidget" name="navigation_button_widget" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <layout class="QGridLayout" name="gridLayout_3" rowstretch="1,1" columnstretch="1,10,10,50">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_hesap_kodu">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Hesap Kodu</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="line_edit_hesap_kodu"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_hesap_ismi">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Hesap İsmi</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" colspan="2">
+      <widget class="QLineEdit" name="lineEdit_hesap_ismi"/>
+     </item>
+     <item row="0" column="3">
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="0" column="2">
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+  <action name="action_satir_ekle">
+   <property name="text">
+    <string>Satır Ekle</string>
+   </property>
+  </action>
+  <action name="action_satir_sil">
+   <property name="text">
+    <string>Satır Sil</string>
+   </property>
+  </action>
+  <action name="action_satiri_tamamla">
+   <property name="text">
+    <string>Satiri Tamamla</string>
+   </property>
+   <property name="toolTip">
+    <string>Satırdaki eksik bilgileri tamamlar.</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>tablewidget_alt_hesaplar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

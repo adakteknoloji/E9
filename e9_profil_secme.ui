@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>E9_PROFIL_SECME</class>
+ <widget class="QDialog" name="E9_PROFIL_SECME">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>823</width>
+    <height>465</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_4" rowstretch="2,20,0" columnstretch="1,15,20">
+   <item row="1" column="0" rowspan="2" colspan="2">
+    <widget class="QGroupBox" name="groupBox_profiller">
+     <property name="title">
+      <string>E9 'u Kullanım Şekliniz</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="margin">
+       <number>6</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QListWidget" name="listWidget_profil">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(221, 255, 214);</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Adres Etiket Toplu Mail Toplu SMS Programi</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fatura / Cari / Stok Takip Programi</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mali Musavir Programi</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Serbest Meslek Programi</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Komple Ticari Paket</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QGroupBox" name="groupBox_profil_adi">
+     <property name="title">
+      <string>GroupBox</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="margin">
+       <number>6</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QTextEdit" name="textEdit_profil_aciklama">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(192, 242, 255);</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="3">
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Şirket Kodu / Adı :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_sirket_kodu_adi">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="2">
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="0" column="1">
+      <widget class="QWidget" name="widget_batch_button" native="true"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>listWidget_profil</tabstop>
+  <tabstop>textEdit_profil_aciklama</tabstop>
+ </tabstops>
+ <resources>
+  <include location="kernel_icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

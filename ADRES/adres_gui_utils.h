@@ -1,0 +1,5 @@
+#ifndef ADRES_GUI_UTILS_H
+#define ADRES_GUI_UTILS_H
+
+
+#endif // ADRES_GUI_UTILS_H

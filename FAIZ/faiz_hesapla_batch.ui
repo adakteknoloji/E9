@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FAIZ_HESAPLA_BATCH</class>
+ <widget class="QDialog" name="FAIZ_HESAPLA_BATCH">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1015</width>
+    <height>665</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>780</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <stylestrategy>PreferDefault</stylestrategy>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Faiz Hesaplama</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_9" rowstretch="80,0" columnstretch="80,0">
+   <property name="margin">
+    <number>3</number>
+   </property>
+   <item row="0" column="0" colspan="2">
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout" rowstretch="2,10">
+      <item row="1" column="0">
+       <widget class="QScrollArea" name="scrollArea">
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>983</width>
+           <height>320</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="1">
+           <widget class="QWidget" name="widget" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <layout class="QGridLayout" name="gridLayout_6" rowstretch="1,0,0,0,0,0,0,0" columnstretch="1,0,0,0,0">
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_taksit_sayisi">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+            <strikeout>false</strikeout>
+           </font>
+          </property>
+          <property name="text">
+           <string>Taksit Sayısı</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <spacer name="horizontalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="2" column="1">
+         <layout class="QGridLayout" name="gridLayout_4" columnstretch="4,10">
+          <item row="0" column="0">
+           <widget class="QCommaEdit" name="comma_edit_taksit_sayisi">
+            <property name="font">
+             <font>
+              <italic>false</italic>
+             </font>
+            </property>
+            <property name="whatsThis">
+             <string>Sayilari formatina(Or:1,000,234.50) donusturur. </string>
+            </property>
+            <property name="QCommaEdit" stdset="0">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>100</width>
+              <height>100</height>
+             </rect>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <spacer name="horizontalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>88</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_3">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Başlama Tarihi</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <layout class="QGridLayout" name="gridLayout_5" columnstretch="2,1,6">
+          <item row="0" column="0">
+           <widget class="QCommaEdit" name="comma_edit_aylik_faiz_orani">
+            <property name="font">
+             <font>
+              <italic>false</italic>
+             </font>
+            </property>
+            <property name="whatsThis">
+             <string>Sayilari formatina(Or:1,000,234.50) donusturur. </string>
+            </property>
+            <property name="QCommaEdit" stdset="0">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>100</width>
+              <height>100</height>
+             </rect>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <spacer name="horizontalSpacer_7">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>%</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_ana_para">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Ana Para</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_faiz_orani">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Aylık Faiz Oranı</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <layout class="QGridLayout" name="gridLayout_7" columnstretch="8,1,5">
+          <item row="0" column="0">
+           <widget class="QCommaEdit" name="comma_edit_anapara">
+            <property name="font">
+             <font>
+              <italic>false</italic>
+             </font>
+            </property>
+            <property name="whatsThis">
+             <string>Sayilari formatina(Or:1,000,234.50) donusturur. </string>
+            </property>
+            <property name="QCommaEdit" stdset="0">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>100</width>
+              <height>100</height>
+             </rect>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_ana_para_birim">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>TL</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="6" column="1">
+         <layout class="QGridLayout" name="gridLayout_gunluk_faiz" columnstretch="2,1,6">
+          <item row="0" column="0">
+           <widget class="QCommaEdit" name="commaEdit_gunluk_faiz">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="whatsThis">
+             <string>Sayilari formatina(Or:1,000,234.50) donusturur. </string>
+            </property>
+            <property name="QCommaEdit" stdset="0">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>100</width>
+              <height>100</height>
+             </rect>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <spacer name="horizontalSpacer_14">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_6">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>%</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_hesaplama_sekli">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Taksitlendirme Şekli </string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <layout class="QGridLayout" name="gridLayout_10" columnstretch="3,4,4">
+          <item row="0" column="1">
+           <widget class="QComboBox" name="comboBox_hesaplama_sekli">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <spacer name="horizontalSpacer_12">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="0">
+           <widget class="QCommaEdit" name="commaEdit_faiz_hesaplama_sayisi">
+            <property name="whatsThis">
+             <string>Sayilari formatina(Or:1,000,234.50) donusturur. </string>
+            </property>
+            <property name="QCommaEdit" stdset="0">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>100</width>
+              <height>100</height>
+             </rect>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="7" column="1">
+         <layout class="QGridLayout" name="gridLayout_yillik" columnstretch="2,1,6">
+          <item row="0" column="0">
+           <widget class="QCommaEdit" name="commaEdit_yillik_faiz">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="whatsThis">
+             <string>Sayilari formatina(Or:1,000,234.50) donusturur. </string>
+            </property>
+            <property name="QCommaEdit" stdset="0">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>100</width>
+              <height>100</height>
+             </rect>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <spacer name="horizontalSpacer_15">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_7">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>%</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLabel" name="label_4">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Yıllık Faiz </string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Günlük Faiz </string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="2">
+         <layout class="QGridLayout" name="gridLayout_13" columnstretch="1,5,0,5">
+          <item row="0" column="3">
+           <spacer name="horizontalSpacer_13">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>68</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_faiz_tutari">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>Faiz </string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QCommaEdit" name="commaEdit_faiz_tutari">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="whatsThis">
+             <string>Sayilari formatina(Or:1,000,234.50) donusturur. </string>
+            </property>
+            <property name="QCommaEdit" stdset="0">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>100</width>
+              <height>100</height>
+             </rect>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="label">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>TL</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="3" column="3">
+         <spacer name="horizontalSpacer_9">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="4" column="3" colspan="2">
+         <layout class="QGridLayout" name="gridLayout_14" columnstretch="0,0,1,0">
+          <item row="0" column="1">
+           <widget class="QCommaEdit" name="comma_edit_toplam_tutar">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="whatsThis">
+             <string>Sayilari formatina(Or:1,000,234.50) donusturur. </string>
+            </property>
+            <property name="QCommaEdit" stdset="0">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>100</width>
+              <height>100</height>
+             </rect>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <spacer name="horizontalSpacer_16">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>68</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_toplam_tutar">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>Toplam Tutar</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="label_toplam_tutar_birimi">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>TL</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="3" column="1">
+         <layout class="QGridLayout" name="gridLayout_8" columnstretch="8,0">
+          <item row="0" column="1">
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>78</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="0">
+           <widget class="QAdakDate" name="adak_date_baslama_tarihi" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>242</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="whatsThis">
+             <string>Tarih WidgetÄ± </string>
+            </property>
+            <property name="QAdakDate" stdset="0">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>100</width>
+              <height>100</height>
+             </rect>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_title">
+          <property name="font">
+           <font>
+            <pointsize>19</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:rgb(0, 0, 0)</string>
+          </property>
+          <property name="text">
+           <string>Taksitlendirme</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="1">
+    <layout class="QGridLayout" name="gridLayout_3" columnstretch="10,0,0">
+     <item row="0" column="0">
+      <spacer name="horizontalSpacer_10">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="0" column="2">
+      <widget class="QToolButton" name="pushButton_hesapla">
+       <property name="text">
+        <string>Hesapla</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../e9_icons.qrc">
+         <normaloff>:/e9_icons/E9_ICONS/calculator.png</normaloff>:/e9_icons/E9_ICONS/calculator.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QWidget" name="widget_batch_button" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QAdakDate</class>
+   <extends>QWidget</extends>
+   <header>QAdakDate.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QCommaEdit</class>
+   <extends>QLineEdit</extends>
+   <header>QCommaEdit.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>commaEdit_faiz_hesaplama_sayisi</tabstop>
+  <tabstop>comboBox_hesaplama_sekli</tabstop>
+  <tabstop>comma_edit_taksit_sayisi</tabstop>
+  <tabstop>adak_date_baslama_tarihi</tabstop>
+  <tabstop>comma_edit_anapara</tabstop>
+  <tabstop>comma_edit_aylik_faiz_orani</tabstop>
+  <tabstop>commaEdit_gunluk_faiz</tabstop>
+  <tabstop>scrollArea</tabstop>
+  <tabstop>pushButton_hesapla</tabstop>
+  <tabstop>commaEdit_yillik_faiz</tabstop>
+  <tabstop>comma_edit_toplam_tutar</tabstop>
+  <tabstop>commaEdit_faiz_tutari</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../e9_icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

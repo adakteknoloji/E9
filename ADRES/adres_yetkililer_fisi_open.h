@@ -1,0 +1,6 @@
+#ifndef ADRES_YETKILILER_FISI_OPEN_H
+#define ADRES_YETKILILER_FISI_OPEN_H
+
+void OPEN_ADRES_YETKILILER_FISI ( int p_adres_id, QWidget * p_parent );
+
+#endif // ADRES_YETKILILER_FISI_OPEN_H

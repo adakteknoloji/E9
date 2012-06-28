@@ -1,0 +1,18 @@
+ADIM 1 - QtSDK Kurulumu
+
+    K9 ' u derlemeniz icin once isletim sisteminize uygun QtSDK 1.2 yi  kurmalisiniz
+    QtSDK 1.2 ' yi su adresten indirebilirsiniz : http://qt.nokia.com/downloads
+
+ADIM 2 - K9 ' u indirme
+
+    Indirmek icin 
+
+         git clone https://github.com/adakteknoloji/K9.git
+
+    demeniz yeterli.
+
+ADIM 3  - Derleme
+
+    1.Yol : QtCreater ile projeyi acip build/derle demeniz yeterli
+    2.Yol : Konsolda K9 u indirdiginiz dizinde qmake yazip entera basin. Sonra make demeniz yeterli
+

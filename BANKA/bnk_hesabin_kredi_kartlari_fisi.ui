@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BNK_HESABIN_KREDI_KARTLARI_FISI</class>
+ <widget class="QDialog" name="BNK_HESABIN_KREDI_KARTLARI_FISI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>975</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>975</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Hesabın Kredi Kartları</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" rowstretch="1,0,0">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetNoConstraint</enum>
+   </property>
+   <property name="margin">
+    <number>2</number>
+   </property>
+   <item row="0" column="0" colspan="2">
+    <widget class="QWidget" name="navigation_button_widget" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QTableWidget" name="tablewidget_fis_satirlari"/>
+   </item>
+   <item row="2" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+  <action name="action_satir_ekle">
+   <property name="text">
+    <string>Satır Ekle</string>
+   </property>
+  </action>
+  <action name="action_satir_sil">
+   <property name="text">
+    <string>Satır Sil</string>
+   </property>
+  </action>
+  <action name="action_satiri_tamamla">
+   <property name="text">
+    <string>Satiri Tamamla</string>
+   </property>
+   <property name="toolTip">
+    <string>Satırdaki eksik bilgileri tamamlar.</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>tablewidget_fis_satirlari</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

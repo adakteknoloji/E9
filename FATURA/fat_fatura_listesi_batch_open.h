@@ -1,0 +1,6 @@
+#ifndef FAT_FATURA_LISTESI_BATCH_OPEN_H
+#define FAT_FATURA_LISTESI_BATCH_OPEN_H
+
+void        OPEN_FAT_FATURA_LISTESI_BATCH           ( QWidget * parent );
+
+#endif // FAT_FATURA_LISTESI_BATCH_OPEN_H

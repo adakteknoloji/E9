@@ -1,0 +1,8 @@
+#ifndef PRS_PERSONEL_RAPORU_BATCH_OPEN_H
+#define PRS_PERSONEL_RAPORU_BATCH_OPEN_H
+
+class QWidget;
+
+void          SHOW_PRS_PERSONEL_RAPORU_BATCH           ( QWidget * parent);
+
+#endif // PRS_PERSONEL_RAPORU_BATCH_OPEN_H

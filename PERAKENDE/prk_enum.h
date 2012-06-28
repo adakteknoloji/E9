@@ -1,0 +1,10 @@
+#ifndef PERAKENDE_ENUM_H
+#define PERAKENDE_ENUM_H
+
+
+enum PRK_RAPORLAR {
+    ENUM_PRK_KASA_RAPORU = 11,
+};
+
+
+#endif // PERAKENDE_ENUM_H

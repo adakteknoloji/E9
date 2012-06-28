@@ -1,0 +1,8 @@
+#ifndef MUH_FIS_KOPYALAMA_BATCH_OPEN_H
+#define MUH_FIS_KOPYALAMA_BATCH_OPEN_H
+
+class QWidget;
+
+void OPEN_MUH_FIS_KOPYALAMA_BATCH ( int fis_id, QWidget * parent );
+
+#endif // MUH_FIS_KOPYALAMA_BATCH_OPEN_H

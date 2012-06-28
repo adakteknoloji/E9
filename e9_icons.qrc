@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/e9_icons">
+        <file>E9_ICONS/yazdir_ikonu.png</file>
+        <file>E9_ICONS/cikis_ikonu.png</file>
+        <file>E9_ICONS/ekle_ikonu.png</file>
+        <file>E9_ICONS/e9_fis_kopyala.png</file>
+        <file>E9_ICONS/e9_liste.png</file>
+        <file>E9_ICONS/e9_fis_arama.png</file>
+        <file>E9_ICONS/e9_grup.png</file>
+        <file>E9_ICONS/e9_logo.png</file>
+        <file>E9_ICONS/etiketler/duz_52_50_22.jpg</file>
+        <file>E9_ICONS/etiketler/oval_65_39.1_21.2.jpg</file>
+        <file>E9_ICONS/adres_onar_splash.png</file>
+        <file>E9_ICONS/adr_zarf_sablonu.png</file>
+        <file>E9_ICONS/isl_fis_kopyala.png</file>
+        <file>E9_ICONS/fatura.png</file>
+        <file>E9_ICONS/calculator.png</file>
+        <file>E9_ICONS/irsaliye.png</file>
+        <file>E9_ICONS/kaydet_ikonu.png</file>
+        <file>E9_ICONS/onceki_kayit_ikonu.png</file>
+        <file>E9_ICONS/dvz_doviz_kurlari_guncelle.png</file>
+        <file>E9_ICONS/sube_ent_hesaplari.png</file>
+        <file>E9_ICONS/sube_depolar.png</file>
+        <file>E9_ICONS/fat_toplu_faturalastir_run.png</file>
+        <file>E9_ICONS/stok_seri_numaralari.png</file>
+        <file>E9_ICONS/cari_hareketler.png</file>
+        <file>E9_ICONS/fisler.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,7 @@
+#ifndef ADRES_RAPOR_FILTRESI_BATCH_OPEN_H
+#define ADRES_RAPOR_FILTRESI_BATCH_OPEN_H
+
+class QWidget;
+void OPEN_ADRES_RAPOR_FILTRESI_BATCH ( int p_rapor_turu, QWidget * p_parent );
+
+#endif // ADRES_RAPOR_FILTRESI_BATCH_OPEN_H

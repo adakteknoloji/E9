@@ -1,0 +1,8 @@
+#ifndef STOK_URUN_HAREKETLERI_ARAMA_OPEN_H
+#define STOK_URUN_HAREKETLERI_ARAMA_OPEN_H
+
+class QWidget;
+
+void OPEN_STOK_URUN_HAREKETLERI_ARAMA ( int p_urun_id, QWidget * parent );
+
+#endif // STOK_URUN_HAREKETLERI_ARAMA_OPEN_H

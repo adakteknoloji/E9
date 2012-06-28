@@ -1,0 +1,9 @@
+#ifndef PRS_MAAS_BORDROSU_RAPORU_BATCH_OPEN_H
+#define PRS_MAAS_BORDROSU_RAPORU_BATCH_OPEN_H
+
+class QWidget;
+
+void          SHOW_PRS_MAAS_BORDROSU_RAPORU_BATCH      ( int sube_id,  QWidget * parent );
+
+
+#endif // PRS_MAAS_BORDROSU_RAPORU_BATCH_OPEN_H

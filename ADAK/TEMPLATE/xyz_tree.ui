@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HESAP_PLANI</class>
+ <widget class="QDialog" name="HESAP_PLANI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>651</width>
+    <height>386</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Hesap Planı</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetNoConstraint</enum>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QTreeView" name="c_hesaplar_tree_view"/>
+      </item>
+      <item row="1" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="btn_alt_hesap_ekle">
+          <property name="toolTip">
+           <string>Seçili olan hesaba alt hesap ekleme ekranını açar.</string>
+          </property>
+          <property name="text">
+           <string>Alt Hesap Ekle  (F4)</string>
+          </property>
+          <property name="shortcut">
+           <string>F4</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_hesabi_sil">
+          <property name="toolTip">
+           <string>Seçili olan hesabı siler.</string>
+          </property>
+          <property name="text">
+           <string>Hesabı Sil  (F5)</string>
+          </property>
+          <property name="shortcut">
+           <string>F5</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_guncellestir">
+          <property name="text">
+           <string>Hesabı Güncelleştir (F6)</string>
+          </property>
+          <property name="shortcut">
+           <string>F6</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_ana_hesap_ekle">
+          <property name="toolTip">
+           <string>Hesap Planına ana hesap ekleme ekranını açar.</string>
+          </property>
+          <property name="text">
+           <string>Ana Hesap Ekle  (F7)</string>
+          </property>
+          <property name="shortcut">
+           <string>F7</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>c_hesaplar_tree_view</tabstop>
+  <tabstop>btn_alt_hesap_ekle</tabstop>
+  <tabstop>btn_hesabi_sil</tabstop>
+  <tabstop>btn_guncellestir</tabstop>
+  <tabstop>btn_ana_hesap_ekle</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

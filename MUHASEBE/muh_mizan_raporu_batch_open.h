@@ -1,0 +1,8 @@
+#ifndef MUH_MIZAN_RAPORU_BATCH_OPEN_H
+#define MUH_MIZAN_RAPORU_BATCH_OPEN_H
+
+class QWidget;
+
+void OPEN_MUH_MIZAN_RAPORU_BATCH ( QWidget * parent);
+
+#endif // MUH_MIZAN_RAPORU_BATCH_OPEN_H

@@ -1,0 +1,8 @@
+#ifndef DMR_GRUP_TREE_SECIMI_OPEN_H
+#define DMR_GRUP_TREE_SECIMI_OPEN_H
+
+class QWidget;
+
+int SHOW_DMR_GRUP_TREE_SECIMI ( QWidget * parent);
+
+#endif // DMR_GRUP_TREE_SECIMI_OPEN_H

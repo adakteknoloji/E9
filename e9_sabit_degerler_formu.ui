@@ -1,0 +1,5242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>E9_SABIT_DEGERLER_FORMU</class>
+ <widget class="QDialog" name="E9_SABIT_DEGERLER_FORMU">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1148</width>
+    <height>747</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Firma Bilgileri / Sabit Değerler</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_8" rowstretch="0,100,1" columnstretch="100,0">
+   <property name="margin">
+    <number>3</number>
+   </property>
+   <item row="0" column="0" colspan="2">
+    <widget class="QWidget" name="navigation_buttons_widget" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" rowspan="2">
+    <widget class="QTabWidget" name="tabWidget_sabit_degerler">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab_firma_bilgileri">
+      <attribute name="title">
+       <string>Firma Bilgileri</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_7" rowstretch="1,14,0,3,0,5">
+       <item row="0" column="0" colspan="2">
+        <widget class="QFrame" name="frame">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout" columnstretch="1,20,1,10,10,25,15,20,20">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_firma_ismi">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Firma İsmi</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1" colspan="5">
+             <widget class="QLineEdit" name="lineEdit_firma_ismi"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Yetkili</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1" colspan="3">
+             <widget class="QLineEdit" name="lineedit_yetkili"/>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_adres_satiri_1">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Adres Satırı 1 </string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1" colspan="4">
+             <widget class="QLineEdit" name="lineEdit_adres_satiri_1"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="label_adres_satiri_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Adres Satırı 2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1" colspan="4">
+             <widget class="QLineEdit" name="lineEdit_adres_satiri_2"/>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="label_adres_satiri_3">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Adres Satırı 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1" colspan="4">
+             <widget class="QLineEdit" name="lineEdit_adres_satiri_3"/>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="label_ulke">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Ülke</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="1">
+             <widget class="QComboBox" name="comboBox_ulke">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="editable">
+               <bool>true</bool>
+              </property>
+              <property name="sizeAdjustPolicy">
+               <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="label_sehir">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Şehir</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="1">
+             <widget class="QComboBox" name="comboBox_sehir">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="editable">
+               <bool>true</bool>
+              </property>
+              <property name="sizeAdjustPolicy">
+               <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="0">
+             <widget class="QLabel" name="label_ilce">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>İlçe</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="1">
+             <widget class="QComboBox" name="comboBox_ilce">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="editable">
+               <bool>true</bool>
+              </property>
+              <property name="sizeAdjustPolicy">
+               <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="2">
+             <widget class="QLabel" name="label_semt">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Semt </string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="3" colspan="2">
+             <widget class="QLineEdit" name="lineEdit_semt"/>
+            </item>
+            <item row="9" column="0">
+             <widget class="QLabel" name="label_8">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Vergi Dairesi</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="1" colspan="3">
+             <widget class="QComboBox" name="comboBox_vergi_dairesi">
+              <property name="editable">
+               <bool>true</bool>
+              </property>
+              <property name="sizeAdjustPolicy">
+               <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="4">
+             <widget class="QLabel" name="label_9">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Vergi Numarası </string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="0">
+             <widget class="QLabel" name="label_telefon">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Telefon</string>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="1" colspan="3">
+             <layout class="QHBoxLayout" name="horizontalLayout" stretch="10,1,10,1,15">
+              <item>
+               <widget class="QComboBox" name="comboBox_telefon_ulke_kodu">
+                <property name="editable">
+                 <bool>true</bool>
+                </property>
+                <property name="sizeAdjustPolicy">
+                 <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_4">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Ignored">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>19</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox_telefon_alan_kodu">
+                <property name="editable">
+                 <bool>true</bool>
+                </property>
+                <property name="sizeAdjustPolicy">
+                 <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_5">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Ignored">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>19</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_telefon">
+                <property name="inputMask">
+                 <string>999-99-99; </string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="11" column="0">
+             <widget class="QLabel" name="label_fax">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Fax</string>
+              </property>
+             </widget>
+            </item>
+            <item row="11" column="1" colspan="3">
+             <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="10,1,10,1,15">
+              <item>
+               <widget class="QComboBox" name="comboBox_fax_ulke_kodu">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="editable">
+                 <bool>true</bool>
+                </property>
+                <property name="sizeAdjustPolicy">
+                 <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_10">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Ignored">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>19</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox_fax_alan_kodu">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="editable">
+                 <bool>true</bool>
+                </property>
+                <property name="sizeAdjustPolicy">
+                 <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_12">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Ignored">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>19</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_fax">
+                <property name="inputMask">
+                 <string>999-99-99; </string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="12" column="0">
+             <widget class="QLabel" name="label_6">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Web Adresi</string>
+              </property>
+             </widget>
+            </item>
+            <item row="12" column="1" colspan="4">
+             <widget class="QLineEdit" name="lineedit_web_adresi">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>16777215</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item row="13" column="0">
+             <widget class="QLabel" name="label_7">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>E-mail</string>
+              </property>
+             </widget>
+            </item>
+            <item row="13" column="1" colspan="4">
+             <widget class="QLineEdit" name="lineedit_mail">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>16777215</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="5">
+             <spacer name="horizontalSpacer_4">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="2" column="6">
+             <spacer name="horizontalSpacer_5">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="8" column="7" rowspan="6" colspan="2">
+             <widget class="QFrame" name="frame_4">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_6">
+               <property name="margin">
+                <number>2</number>
+               </property>
+               <item row="1" column="0">
+                <widget class="QTextEdit" name="textedit_adresi">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="readOnly">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_20">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Oluşan Adres</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="8" column="5" colspan="2">
+             <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="1,0,5">
+              <item>
+               <widget class="QLabel" name="label_posta_kodu">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>Posta Kodu </string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_posta_kodu"/>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_15">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+            <item row="0" column="6">
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="5" column="8">
+             <spacer name="horizontalSpacer_3">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="2" column="7">
+             <spacer name="horizontalSpacer_9">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_14">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>SM Sicil Numarası </string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="8" rowspan="4">
+             <widget class="QFrame" name="frame_5">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_17">
+               <property name="margin">
+                <number>2</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="pushButton_logo">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>12</pointsize>
+                  </font>
+                 </property>
+                 <property name="layoutDirection">
+                  <enum>Qt::LeftToRight</enum>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="lineEdit_sm_sicil_numarasi"/>
+            </item>
+            <item row="9" column="5">
+             <widget class="QLineEdit" name="lineEdit_vergi_numarasi"/>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QFrame" name="frame_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout_3" columnstretch="1,2,1,5">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_11">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Mali Yıl Başlangıç Tarihi </string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_13">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Firmanın Para Birimi</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_15">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="toolTip">
+               <string>Muhasebe hesaplarında kullanılacak ayracı gösterir.</string>
+              </property>
+              <property name="text">
+               <string>Firma Ayracı</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <spacer name="horizontalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="1" column="1" rowspan="2" colspan="2">
+             <layout class="QGridLayout" name="gridLayout_16" columnstretch="1,2,1">
+              <item row="0" column="0">
+               <widget class="QComboBox" name="combobox_para_birimi">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="editable">
+                 <bool>false</bool>
+                </property>
+                <property name="sizeAdjustPolicy">
+                 <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QLineEdit" name="lineedit_para_birimi">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="focusPolicy">
+                 <enum>Qt::NoFocus</enum>
+                </property>
+                <property name="readOnly">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QComboBox" name="combobox_e9_ayraci">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="toolTip">
+                 <string>Yeni ayraç seçiniz</string>
+                </property>
+                <property name="editable">
+                 <bool>false</bool>
+                </property>
+                <property name="sizeAdjustPolicy">
+                 <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLineEdit" name="lineedit_e9_ayraci">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="focusPolicy">
+                 <enum>Qt::NoFocus</enum>
+                </property>
+                <property name="readOnly">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <spacer name="horizontalSpacer_16">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+            <item row="0" column="3">
+             <spacer name="horizontalSpacer_17">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="0" column="1">
+             <widget class="QAdakDate" name="adakDate_mali_yil_baslangic_tarihi" native="true">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>242</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="whatsThis">
+               <string>Tarih WidgetÄ± </string>
+              </property>
+              <property name="QAdakDate" stdset="0">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>100</width>
+                <height>100</height>
+               </rect>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QFrame" name="frame_3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5" columnstretch="1,10">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <item row="0" column="1">
+           <widget class="QLimitedTextEdit" name="limitedTextEdit_aciklama"/>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_19">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>Notlar </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="0">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="5" column="0">
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="4" column="1">
+        <spacer name="horizontalSpacer_6">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_sabit_degerler">
+      <attribute name="title">
+       <string>Sabit Değerler</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_15" rowstretch="1,1,1,1,1,1,1,1,1,1,1,1,1,1">
+       <item row="2" column="0">
+        <widget class="QFrame" name="frame_ceksenet">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_9" columnstretch="1,1,5,20">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_16">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>483</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Ciro edilen çeklerin tarihi kaç gün geçtikten sonra ödenmiş kabul edilsin ?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QCommaEdit" name="commaEdit_ciro_sonrasi_gun_sayisi">
+            <property name="whatsThis">
+             <string>Sayilari formatina(Or:1,000,234.50) donusturur. </string>
+            </property>
+            <property name="QCommaEdit" stdset="0">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>100</width>
+              <height>100</height>
+             </rect>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="label_17">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 0, 255);</string>
+            </property>
+            <property name="text">
+             <string>( gün )</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <spacer name="horizontalSpacer_7">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_ceksenet_baslik">
+            <property name="minimumSize">
+             <size>
+              <width>483</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>ÇEK SENET</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QFrame" name="frame_demirbas">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_12" columnstretch="1,1,5,30">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_18">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>483</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Amortisman Ayırma Yöntemi Her Demirbaş İçin Değişebilir Mi ?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QComboBox" name="comboBox_amor_yontemi_degisebilir_mi">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <item>
+             <property name="text">
+              <string>Hayır</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Evet</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <spacer name="horizontalSpacer_8">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>229</width>
+              <height>24</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_amortisman_yontemi">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>483</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Amortisman Ayırma Yöntemi</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1" colspan="2">
+           <widget class="QComboBox" name="comboBox_amortisman_yontemi">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_21">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>483</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Max Amortisman Oranı ( % )</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QCommaEdit" name="commaEdit_max_amortisman_orani">
+            <property name="whatsThis">
+             <string>Sayilari formatina(Or:1,000,234.50) donusturur. </string>
+            </property>
+            <property name="QCommaEdit" stdset="0">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>100</width>
+              <height>100</height>
+             </rect>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <spacer name="horizontalSpacer_14">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_28">
+            <property name="minimumSize">
+             <size>
+              <width>483</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>DEMİRBAŞ</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QFrame" name="frame_fatura">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_11" columnstretch="1,6,34">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_22">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>483</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Faturalar Açık mı /  Kapalı mı gelsin ?                                                                        </string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QComboBox" name="comboBox_acik_fatura_mi">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <spacer name="horizontalSpacer_11">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>243</width>
+              <height>24</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_29">
+            <property name="minimumSize">
+             <size>
+              <width>483</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>FATURA</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="11" column="0">
+        <widget class="QFrame" name="frame_irsaliye">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_10" columnstretch="1,5,30">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_24">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>483</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>İrsaliyeler kaç gün içinde faturalandırılacak</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QCommaEdit" name="commaEdit_irs_kac_gunde_faturalanacak">
+            <property name="whatsThis">
+             <string>Sayilari formatina(Or:1,000,234.50) donusturur. </string>
+            </property>
+            <property name="QCommaEdit" stdset="0">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>100</width>
+              <height>100</height>
+             </rect>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <spacer name="horizontalSpacer_12">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>283</width>
+              <height>24</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_irsaliye_baslik">
+            <property name="minimumSize">
+             <size>
+              <width>483</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>İRSALİYE</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <spacer name="verticalSpacer_11">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="13" column="0">
+        <spacer name="verticalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="9" column="0">
+        <spacer name="verticalSpacer_6">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>875</width>
+           <height>96</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="5" column="0">
+        <spacer name="verticalSpacer_7">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="0">
+        <spacer name="verticalSpacer_8">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="12" column="0">
+        <widget class="QFrame" name="frame_6">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_18" columnstretch="1,3,20">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label">
+            <property name="minimumSize">
+             <size>
+              <width>483</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Öntanımlı KDV Oranı</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="comboBox_ontanimli_kdv_orani"/>
+          </item>
+          <item row="0" column="2">
+           <spacer name="horizontalSpacer_18">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>241</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="10" column="0">
+        <widget class="QFrame" name="frame_9">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_27" columnstretch="1,6,34">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_41">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>483</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>CARİ</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_max_nakit_giris_cikis_tutari">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>483</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Öntanımlı Maksimum Nakit Giriş / Çıkış Tutarı</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QCommaEdit" name="commaEdit_max_nakit_giris_cikis_tutari">
+            <property name="whatsThis">
+             <string>Sayilari formatina(Or:1,000,234.50) donusturur. </string>
+            </property>
+            <property name="QCommaEdit" stdset="0">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>100</width>
+              <height>100</height>
+             </rect>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <spacer name="horizontalSpacer_32">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>199</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QFrame" name="frame_11">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_31">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_ceksenet_baslik_2">
+            <property name="minimumSize">
+             <size>
+              <width>483</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>MUHASEBE</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_67">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>483</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Muhasebe alarmları kapalı mı?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QComboBox" name="combo_box_muh_alarmlari">
+            <item>
+             <property name="text">
+              <string>Hayır</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Evet</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <spacer name="horizontalSpacer_34">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QFrame" name="frame_8">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_26" columnstretch="1,2,34">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <item row="0" column="0" colspan="2">
+           <widget class="QLabel" name="label_32">
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>STOK </string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_33">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>483</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Birim Fiyat hassasiyeti virgülden sonra kaç birim olsun ?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QComboBox" name="comboBox_stok_birim_hassasiyet">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <spacer name="horizontalSpacer_20">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_34">
+            <property name="text">
+             <string>Miktar hassasiyeti virgülden sonra kaç birim olsun ?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QComboBox" name="comboBox_stok_miktar_hassasiyet"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <spacer name="verticalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_kdv_otv_oranlari">
+      <attribute name="title">
+       <string>KDV / ÖTV Oranları</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_20" rowstretch="5,10,5" columnstretch="5,10,5">
+       <item row="1" column="1">
+        <widget class="QFrame" name="frame_7">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_19" rowstretch="0" columnstretch="10,1,10">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QTableWidget" name="tableWidget_kdv_oranlari">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="verticalScrollBarPolicy">
+             <enum>Qt::ScrollBarAsNeeded</enum>
+            </property>
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarAsNeeded</enum>
+            </property>
+            <property name="rowCount">
+             <number>0</number>
+            </property>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>KDV ORANLARI</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <spacer name="horizontalSpacer_19">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>44</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="2">
+           <widget class="QTableWidget" name="tableWidget_otv_oranlari">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="verticalScrollBarPolicy">
+             <enum>Qt::ScrollBarAsNeeded</enum>
+            </property>
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarAsNeeded</enum>
+            </property>
+            <property name="rowCount">
+             <number>0</number>
+            </property>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>ÖTV ORANLARI</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <spacer name="verticalSpacer_16">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="2">
+        <spacer name="horizontalSpacer_22">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="0">
+        <spacer name="horizontalSpacer_23">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="1">
+        <spacer name="verticalSpacer_17">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_kdv_ent_hesaplari">
+      <attribute name="title">
+       <string>KDV Entegrasyon Hesapları</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_25">
+       <item row="0" column="0">
+        <widget class="QScrollArea" name="scrollArea">
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>583</width>
+            <height>695</height>
+           </rect>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_24">
+           <item row="0" column="0">
+            <layout class="QGridLayout" name="gridLayout_13" rowstretch="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" columnstretch="1,6,10,1,1,6,10">
+             <item row="0" column="0" colspan="3">
+              <widget class="QLabel" name="label_23">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <italic>true</italic>
+                </font>
+               </property>
+               <property name="text">
+                <string>İndirilecek KDV Entegrasyon Hesapları</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="4" colspan="3">
+              <widget class="QLabel" name="label_25">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <italic>true</italic>
+                </font>
+               </property>
+               <property name="text">
+                <string>Hesaplanan KDV Entegrasyon Hesapları</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_ind_kdv_orani_0">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_0" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_0">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="4">
+              <widget class="QLabel" name="label_hes_kdv_orani_0">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_0" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_0">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_ind_kdv_orani_1">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_1" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_1">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="4">
+              <widget class="QLabel" name="label_hes_kdv_orani_1">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_1" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_1">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_ind_kdv_orani_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_2" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_2">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="4">
+              <widget class="QLabel" name="label_hes_kdv_orani_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_2" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_2">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_ind_kdv_orani_3">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_3" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_3">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="4">
+              <widget class="QLabel" name="label_hes_kdv_orani_3">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_3" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_3">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_ind_kdv_orani_4">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_4" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_4">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="4">
+              <widget class="QLabel" name="label_hes_kdv_orani_4">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_4" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_4">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_ind_kdv_orani_5">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_5" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_5">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="4">
+              <widget class="QLabel" name="label_hes_kdv_orani_5">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_5" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_5">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="0">
+              <widget class="QLabel" name="label_ind_kdv_orani_6">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_6" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_6">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="4">
+              <widget class="QLabel" name="label_hes_kdv_orani_6">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_6" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_6">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="0">
+              <widget class="QLabel" name="label_ind_kdv_orani_7">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_7" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_7">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="4">
+              <widget class="QLabel" name="label_hes_kdv_orani_7">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_7" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_7">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="0">
+              <widget class="QLabel" name="label_ind_kdv_orani_8">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_8" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_8">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="4">
+              <widget class="QLabel" name="label_hes_kdv_orani_8">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_8" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_8">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="0">
+              <widget class="QLabel" name="label_ind_kdv_orani_9">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_9" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_9">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="4">
+              <widget class="QLabel" name="label_hes_kdv_orani_9">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_9" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_9">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="13" column="0" colspan="3">
+              <widget class="QLabel" name="label_26">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <italic>true</italic>
+                </font>
+               </property>
+               <property name="text">
+                <string>İndirilecek KDV ( İade ) Entegrasyon Hesapları</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="13" column="4" colspan="3">
+              <widget class="QLabel" name="label_27">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <italic>true</italic>
+                </font>
+               </property>
+               <property name="text">
+                <string>Hesaplanan KDV ( İade ) Entegrasyon Hesapları</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="15" column="0">
+              <widget class="QLabel" name="label_ind_kdv_iade_orani_0">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="15" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_iade_0" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="15" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_iade_0">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="15" column="4">
+              <widget class="QLabel" name="label_hes_kdv_iade_orani_0">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="15" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_iade_0" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="15" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_iade_0">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="16" column="0">
+              <widget class="QLabel" name="label_ind_kdv_iade_orani_1">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="16" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_iade_1" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="16" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_iade_1">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="16" column="4">
+              <widget class="QLabel" name="label_hes_kdv_iade_orani_1">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="16" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_iade_1" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="16" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_iade_1">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="17" column="0">
+              <widget class="QLabel" name="label_ind_kdv_iade_orani_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="17" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_iade_2" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="17" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_iade_2">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="17" column="4">
+              <widget class="QLabel" name="label_hes_kdv_iade_orani_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="17" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_iade_2" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="17" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_iade_2">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="18" column="0">
+              <widget class="QLabel" name="label_ind_kdv_iade_orani_3">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="18" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_iade_3" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="18" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_iade_3">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="18" column="4">
+              <widget class="QLabel" name="label_hes_kdv_iade_orani_3">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="18" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_iade_3" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="18" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_iade_3">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="19" column="0">
+              <widget class="QLabel" name="label_ind_kdv_iade_orani_4">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="19" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_iade_4" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="19" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_iade_4">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="19" column="4">
+              <widget class="QLabel" name="label_hes_kdv_iade_orani_4">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="19" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_iade_4" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="19" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_iade_4">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="20" column="0">
+              <widget class="QLabel" name="label_ind_kdv_iade_orani_5">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="20" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_iade_5" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="20" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_iade_5">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="20" column="4">
+              <widget class="QLabel" name="label_hes_kdv_iade_orani_5">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="20" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_iade_5" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="20" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_iade_5">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="21" column="0">
+              <widget class="QLabel" name="label_ind_kdv_iade_orani_6">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="21" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_iade_6" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="21" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_iade_6">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="21" column="4">
+              <widget class="QLabel" name="label_hes_kdv_iade_orani_6">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="21" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_iade_6" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="21" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_iade_6">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="22" column="0">
+              <widget class="QLabel" name="label_ind_kdv_iade_orani_7">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="22" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_iade_7" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="22" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_iade_7">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="22" column="4">
+              <widget class="QLabel" name="label_hes_kdv_iade_orani_7">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="22" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_iade_7" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="22" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_iade_7">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="23" column="0">
+              <widget class="QLabel" name="label_ind_kdv_iade_orani_8">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="23" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_iade_8" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="23" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_iade_8">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="23" column="4">
+              <widget class="QLabel" name="label_hes_kdv_iade_orani_8">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="23" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_iade_8" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="23" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_iade_8">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="24" column="0">
+              <widget class="QLabel" name="label_ind_kdv_iade_orani_9">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="24" column="1">
+              <widget class="QSearchEdit" name="searchEdit_ind_kdv_iade_9" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="24" column="2">
+              <widget class="QLineEdit" name="lineEdit_ind_kdv_iade_9">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="24" column="4">
+              <widget class="QLabel" name="label_hes_kdv_iade_orani_9">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="24" column="5">
+              <widget class="QSearchEdit" name="searchEdit_hes_kdv_iade_9" native="true">
+               <property name="whatsThis">
+                <string>Arama widget. </string>
+               </property>
+               <property name="QSearchEdit" stdset="0">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+              </widget>
+             </item>
+             <item row="24" column="6">
+              <widget class="QLineEdit" name="lineEdit_hes_kdv_iade_9">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="3">
+              <spacer name="horizontalSpacer_10">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="1" column="1">
+              <spacer name="horizontalSpacer_13">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="14" column="0">
+              <spacer name="horizontalSpacer_24">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="12" column="4">
+              <spacer name="horizontalSpacer_25">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_otv_ent_hesaplari">
+      <attribute name="title">
+       <string>ÖTV Entegrasyon Hesapları</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_23">
+       <item row="1" column="0">
+        <layout class="QGridLayout" name="gridLayout_14" columnstretch="1,10,15,1,1,10,15">
+         <item row="0" column="0" colspan="2">
+          <widget class="QLabel" name="label_30">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <italic>true</italic>
+            </font>
+           </property>
+           <property name="text">
+            <string>ÖTV Entegrasyon Hesapları ( Alış ) </string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4" colspan="2">
+          <widget class="QLabel" name="label_31">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <italic>true</italic>
+            </font>
+           </property>
+           <property name="text">
+            <string>ÖTV Entegrasyon Hesapları ( Satış ) </string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_alis_otv_orani_0">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QSearchEdit" name="searchEdit_alis_otv_orani_0" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QLineEdit" name="lineEdit_alis_otv_orani_0">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="4">
+          <widget class="QLabel" name="label_satis_otv_orani_0">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="5">
+          <widget class="QSearchEdit" name="searchEdit_satis_otv_orani_0" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="6">
+          <widget class="QLineEdit" name="lineEdit_satis_otv_orani_0">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_alis_otv_orani_1">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QSearchEdit" name="searchEdit_alis_otv_orani_1" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QLineEdit" name="lineEdit_alis_otv_orani_1">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="4">
+          <widget class="QLabel" name="label_satis_otv_orani_1">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="5">
+          <widget class="QSearchEdit" name="searchEdit_satis_otv_orani_1" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="6">
+          <widget class="QLineEdit" name="lineEdit_satis_otv_orani_1">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_alis_otv_orani_2">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QSearchEdit" name="searchEdit_alis_otv_orani_2" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QLineEdit" name="lineEdit_alis_otv_orani_2">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="4">
+          <widget class="QLabel" name="label_satis_otv_orani_2">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="5">
+          <widget class="QSearchEdit" name="searchEdit_satis_otv_orani_2" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="6">
+          <widget class="QLineEdit" name="lineEdit_satis_otv_orani_2">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_alis_otv_orani_3">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QSearchEdit" name="searchEdit_alis_otv_orani_3" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="2">
+          <widget class="QLineEdit" name="lineEdit_alis_otv_orani_3">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="4">
+          <widget class="QLabel" name="label_satis_otv_orani_3">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="5">
+          <widget class="QSearchEdit" name="searchEdit_satis_otv_orani_3" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="6">
+          <widget class="QLineEdit" name="lineEdit_satis_otv_orani_3">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_alis_otv_orani_4">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QSearchEdit" name="searchEdit_alis_otv_orani_4" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="2">
+          <widget class="QLineEdit" name="lineEdit_alis_otv_orani_4">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="4">
+          <widget class="QLabel" name="label_satis_otv_orani_4">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="5">
+          <widget class="QSearchEdit" name="searchEdit_satis_otv_orani_4" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="6">
+          <widget class="QLineEdit" name="lineEdit_satis_otv_orani_4">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0">
+          <widget class="QLabel" name="label_alis_otv_orani_5">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="1">
+          <widget class="QSearchEdit" name="searchEdit_alis_otv_orani_5" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="2">
+          <widget class="QLineEdit" name="lineEdit_alis_otv_orani_5">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="4">
+          <widget class="QLabel" name="label_satis_otv_orani_5">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="5">
+          <widget class="QSearchEdit" name="searchEdit_satis_otv_orani_5" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="6">
+          <widget class="QLineEdit" name="lineEdit_satis_otv_orani_5">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="0">
+          <widget class="QLabel" name="label_alis_otv_orani_6">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="1">
+          <widget class="QSearchEdit" name="searchEdit_alis_otv_orani_6" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="2">
+          <widget class="QLineEdit" name="lineEdit_alis_otv_orani_6">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="4">
+          <widget class="QLabel" name="label_satis_otv_orani_6">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="5">
+          <widget class="QSearchEdit" name="searchEdit_satis_otv_orani_6" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="6">
+          <widget class="QLineEdit" name="lineEdit_satis_otv_orani_6">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0">
+          <widget class="QLabel" name="label_alis_otv_orani_7">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="1">
+          <widget class="QSearchEdit" name="searchEdit_alis_otv_orani_7" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="2">
+          <widget class="QLineEdit" name="lineEdit_alis_otv_orani_7">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="4">
+          <widget class="QLabel" name="label_satis_otv_orani_7">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="5">
+          <widget class="QSearchEdit" name="searchEdit_satis_otv_orani_7" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="6">
+          <widget class="QLineEdit" name="lineEdit_satis_otv_orani_7">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="0">
+          <widget class="QLabel" name="label_alis_otv_orani_8">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="1">
+          <widget class="QSearchEdit" name="searchEdit_alis_otv_orani_8" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="2">
+          <widget class="QLineEdit" name="lineEdit_alis_otv_orani_8">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="4">
+          <widget class="QLabel" name="label_satis_otv_orani_8">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="5">
+          <widget class="QSearchEdit" name="searchEdit_satis_otv_orani_8" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="6">
+          <widget class="QLineEdit" name="lineEdit_satis_otv_orani_8">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="0">
+          <widget class="QLabel" name="label_alis_otv_orani_9">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="1">
+          <widget class="QSearchEdit" name="searchEdit_alis_otv_orani_9" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="2">
+          <widget class="QLineEdit" name="lineEdit_alis_otv_orani_9">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="4">
+          <widget class="QLabel" name="label_satis_otv_orani_9">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="5">
+          <widget class="QSearchEdit" name="searchEdit_satis_otv_orani_9" native="true">
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="6">
+          <widget class="QLineEdit" name="lineEdit_satis_otv_orani_9">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <spacer name="horizontalSpacer_26">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="2" column="3">
+          <spacer name="horizontalSpacer_27">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="0">
+        <spacer name="verticalSpacer_20">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>859</width>
+           <height>96</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="0">
+        <spacer name="verticalSpacer_21">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_tevkifat_en_hesaplari">
+      <attribute name="title">
+       <string>Tevkifat KDV Entegrasyon Hesaplarrı</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_22">
+       <item row="0" column="1">
+        <spacer name="verticalSpacer_18">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="0">
+        <spacer name="horizontalSpacer_28">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>221</width>
+           <height>353</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="1">
+        <layout class="QGridLayout" name="gridLayout_21" columnstretch="1,7,15">
+         <item row="0" column="0" colspan="3">
+          <widget class="QLabel" name="label_3">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <italic>true</italic>
+            </font>
+           </property>
+           <property name="text">
+            <string>Tevkifat KDV Entegrasyon Hesapları</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_tevkifat_kdv_ent_hesabi_0">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QSearchEdit" name="searchEdit_tevkifat_kdv_ent_hesabi_0" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QLineEdit" name="lineEdit_tevkifat_kdv_ent_hesabi_0">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_tevkifat_kdv_ent_hesabi_1">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QSearchEdit" name="searchEdit_tevkifat_kdv_ent_hesabi_1" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QLineEdit" name="lineEdit_tevkifat_kdv_ent_hesabi_1">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_tevkifat_kdv_ent_hesabi_2">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QSearchEdit" name="searchEdit_tevkifat_kdv_ent_hesabi_2" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QLineEdit" name="lineEdit_tevkifat_kdv_ent_hesabi_2">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_tevkifat_kdv_ent_hesabi_3">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QSearchEdit" name="searchEdit_tevkifat_kdv_ent_hesabi_3" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QLineEdit" name="lineEdit_tevkifat_kdv_ent_hesabi_3">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_tevkifat_kdv_ent_hesabi_4">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QSearchEdit" name="searchEdit_tevkifat_kdv_ent_hesabi_4" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="2">
+          <widget class="QLineEdit" name="lineEdit_tevkifat_kdv_ent_hesabi_4">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_tevkifat_kdv_ent_hesabi_5">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QSearchEdit" name="searchEdit_tevkifat_kdv_ent_hesabi_5" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="2">
+          <widget class="QLineEdit" name="lineEdit_tevkifat_kdv_ent_hesabi_5">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0">
+          <widget class="QLabel" name="label_tevkifat_kdv_ent_hesabi_6">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="1">
+          <widget class="QSearchEdit" name="searchEdit_tevkifat_kdv_ent_hesabi_6" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="2">
+          <widget class="QLineEdit" name="lineEdit_tevkifat_kdv_ent_hesabi_6">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="0">
+          <widget class="QLabel" name="label_tevkifat_kdv_ent_hesabi_7">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="1">
+          <widget class="QSearchEdit" name="searchEdit_tevkifat_kdv_ent_hesabi_7" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="2">
+          <widget class="QLineEdit" name="lineEdit_tevkifat_kdv_ent_hesabi_7">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0">
+          <widget class="QLabel" name="label_tevkifat_kdv_ent_hesabi_8">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="1">
+          <widget class="QSearchEdit" name="searchEdit_tevkifat_kdv_ent_hesabi_8" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="2">
+          <widget class="QLineEdit" name="lineEdit_tevkifat_kdv_ent_hesabi_8">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="0">
+          <widget class="QLabel" name="label_tevkifat_kdv_ent_hesabi_9">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="1">
+          <widget class="QSearchEdit" name="searchEdit_tevkifat_kdv_ent_hesabi_9" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="whatsThis">
+            <string>Arama widget. </string>
+           </property>
+           <property name="QSearchEdit" stdset="0">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>100</height>
+            </rect>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="2">
+          <widget class="QLineEdit" name="lineEdit_tevkifat_kdv_ent_hesabi_9">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="2">
+        <spacer name="horizontalSpacer_29">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>220</width>
+           <height>353</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="1">
+        <spacer name="verticalSpacer_9">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>400</width>
+           <height>70</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QAdakDate</class>
+   <extends>QWidget</extends>
+   <header>QAdakDate.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QCommaEdit</class>
+   <extends>QLineEdit</extends>
+   <header>QCommaEdit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QLimitedTextEdit</class>
+   <extends>QTextEdit</extends>
+   <header>QLimitedTextEdit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QSearchEdit</class>
+   <extends>QWidget</extends>
+   <header>QSearchEdit.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>tabWidget_sabit_degerler</tabstop>
+  <tabstop>lineEdit_firma_ismi</tabstop>
+  <tabstop>lineEdit_sm_sicil_numarasi</tabstop>
+  <tabstop>lineedit_yetkili</tabstop>
+  <tabstop>lineEdit_adres_satiri_1</tabstop>
+  <tabstop>lineEdit_adres_satiri_2</tabstop>
+  <tabstop>lineEdit_adres_satiri_3</tabstop>
+  <tabstop>comboBox_ulke</tabstop>
+  <tabstop>comboBox_sehir</tabstop>
+  <tabstop>comboBox_ilce</tabstop>
+  <tabstop>lineEdit_semt</tabstop>
+  <tabstop>comboBox_vergi_dairesi</tabstop>
+  <tabstop>lineEdit_vergi_numarasi</tabstop>
+  <tabstop>comboBox_telefon_ulke_kodu</tabstop>
+  <tabstop>comboBox_telefon_alan_kodu</tabstop>
+  <tabstop>lineEdit_telefon</tabstop>
+  <tabstop>comboBox_fax_ulke_kodu</tabstop>
+  <tabstop>comboBox_fax_alan_kodu</tabstop>
+  <tabstop>lineEdit_fax</tabstop>
+  <tabstop>lineedit_web_adresi</tabstop>
+  <tabstop>lineedit_mail</tabstop>
+  <tabstop>combobox_para_birimi</tabstop>
+  <tabstop>combobox_e9_ayraci</tabstop>
+  <tabstop>limitedTextEdit_aciklama</tabstop>
+  <tabstop>combo_box_muh_alarmlari</tabstop>
+  <tabstop>commaEdit_ciro_sonrasi_gun_sayisi</tabstop>
+  <tabstop>comboBox_amor_yontemi_degisebilir_mi</tabstop>
+  <tabstop>comboBox_amortisman_yontemi</tabstop>
+  <tabstop>commaEdit_max_amortisman_orani</tabstop>
+  <tabstop>comboBox_acik_fatura_mi</tabstop>
+  <tabstop>commaEdit_max_nakit_giris_cikis_tutari</tabstop>
+  <tabstop>commaEdit_irs_kac_gunde_faturalanacak</tabstop>
+  <tabstop>comboBox_ontanimli_kdv_orani</tabstop>
+  <tabstop>tableWidget_kdv_oranlari</tabstop>
+  <tabstop>tableWidget_otv_oranlari</tabstop>
+  <tabstop>adakDate_mali_yil_baslangic_tarihi</tabstop>
+  <tabstop>comboBox_stok_birim_hassasiyet</tabstop>
+  <tabstop>comboBox_stok_miktar_hassasiyet</tabstop>
+  <tabstop>searchEdit_ind_kdv_0</tabstop>
+  <tabstop>searchEdit_hes_kdv_0</tabstop>
+  <tabstop>searchEdit_ind_kdv_1</tabstop>
+  <tabstop>searchEdit_hes_kdv_1</tabstop>
+  <tabstop>searchEdit_ind_kdv_2</tabstop>
+  <tabstop>searchEdit_hes_kdv_2</tabstop>
+  <tabstop>searchEdit_ind_kdv_3</tabstop>
+  <tabstop>searchEdit_hes_kdv_3</tabstop>
+  <tabstop>searchEdit_ind_kdv_4</tabstop>
+  <tabstop>searchEdit_hes_kdv_4</tabstop>
+  <tabstop>searchEdit_ind_kdv_5</tabstop>
+  <tabstop>searchEdit_hes_kdv_5</tabstop>
+  <tabstop>searchEdit_ind_kdv_6</tabstop>
+  <tabstop>searchEdit_hes_kdv_6</tabstop>
+  <tabstop>searchEdit_ind_kdv_7</tabstop>
+  <tabstop>searchEdit_hes_kdv_7</tabstop>
+  <tabstop>searchEdit_ind_kdv_8</tabstop>
+  <tabstop>searchEdit_hes_kdv_8</tabstop>
+  <tabstop>searchEdit_ind_kdv_9</tabstop>
+  <tabstop>searchEdit_hes_kdv_9</tabstop>
+  <tabstop>searchEdit_ind_kdv_iade_0</tabstop>
+  <tabstop>searchEdit_hes_kdv_iade_0</tabstop>
+  <tabstop>searchEdit_ind_kdv_iade_1</tabstop>
+  <tabstop>searchEdit_hes_kdv_iade_1</tabstop>
+  <tabstop>searchEdit_ind_kdv_iade_2</tabstop>
+  <tabstop>searchEdit_hes_kdv_iade_2</tabstop>
+  <tabstop>searchEdit_ind_kdv_iade_3</tabstop>
+  <tabstop>searchEdit_hes_kdv_iade_3</tabstop>
+  <tabstop>searchEdit_ind_kdv_iade_4</tabstop>
+  <tabstop>searchEdit_hes_kdv_iade_4</tabstop>
+  <tabstop>searchEdit_ind_kdv_iade_5</tabstop>
+  <tabstop>searchEdit_hes_kdv_iade_5</tabstop>
+  <tabstop>searchEdit_ind_kdv_iade_6</tabstop>
+  <tabstop>searchEdit_hes_kdv_iade_6</tabstop>
+  <tabstop>searchEdit_ind_kdv_iade_7</tabstop>
+  <tabstop>searchEdit_hes_kdv_iade_7</tabstop>
+  <tabstop>searchEdit_ind_kdv_iade_8</tabstop>
+  <tabstop>searchEdit_hes_kdv_iade_8</tabstop>
+  <tabstop>searchEdit_ind_kdv_iade_9</tabstop>
+  <tabstop>searchEdit_hes_kdv_iade_9</tabstop>
+  <tabstop>searchEdit_alis_otv_orani_0</tabstop>
+  <tabstop>searchEdit_satis_otv_orani_0</tabstop>
+  <tabstop>searchEdit_alis_otv_orani_1</tabstop>
+  <tabstop>searchEdit_satis_otv_orani_1</tabstop>
+  <tabstop>searchEdit_alis_otv_orani_2</tabstop>
+  <tabstop>searchEdit_satis_otv_orani_2</tabstop>
+  <tabstop>searchEdit_alis_otv_orani_3</tabstop>
+  <tabstop>searchEdit_satis_otv_orani_3</tabstop>
+  <tabstop>searchEdit_alis_otv_orani_4</tabstop>
+  <tabstop>searchEdit_satis_otv_orani_4</tabstop>
+  <tabstop>searchEdit_alis_otv_orani_5</tabstop>
+  <tabstop>searchEdit_satis_otv_orani_5</tabstop>
+  <tabstop>searchEdit_alis_otv_orani_6</tabstop>
+  <tabstop>searchEdit_satis_otv_orani_6</tabstop>
+  <tabstop>searchEdit_alis_otv_orani_7</tabstop>
+  <tabstop>searchEdit_satis_otv_orani_7</tabstop>
+  <tabstop>searchEdit_alis_otv_orani_8</tabstop>
+  <tabstop>searchEdit_satis_otv_orani_8</tabstop>
+  <tabstop>searchEdit_alis_otv_orani_9</tabstop>
+  <tabstop>searchEdit_satis_otv_orani_9</tabstop>
+  <tabstop>searchEdit_tevkifat_kdv_ent_hesabi_0</tabstop>
+  <tabstop>searchEdit_tevkifat_kdv_ent_hesabi_1</tabstop>
+  <tabstop>searchEdit_tevkifat_kdv_ent_hesabi_2</tabstop>
+  <tabstop>searchEdit_tevkifat_kdv_ent_hesabi_3</tabstop>
+  <tabstop>searchEdit_tevkifat_kdv_ent_hesabi_4</tabstop>
+  <tabstop>searchEdit_tevkifat_kdv_ent_hesabi_5</tabstop>
+  <tabstop>searchEdit_tevkifat_kdv_ent_hesabi_6</tabstop>
+  <tabstop>searchEdit_tevkifat_kdv_ent_hesabi_7</tabstop>
+  <tabstop>searchEdit_tevkifat_kdv_ent_hesabi_8</tabstop>
+  <tabstop>searchEdit_tevkifat_kdv_ent_hesabi_9</tabstop>
+  <tabstop>pushButton_logo</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

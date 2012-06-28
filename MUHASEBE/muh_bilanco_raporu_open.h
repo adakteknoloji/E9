@@ -1,0 +1,10 @@
+#ifndef MUH_BILANCO_RAPORU_OPEN_H
+#define MUH_BILANCO_RAPORU_OPEN_H
+
+#include <QString>
+
+struct MUH_RAPOR_VARS;
+
+QString GET_BILANCO_RAPORU ( MUH_RAPOR_VARS * );
+
+#endif // MUH_BILANCO_RAPORU_OPEN_H

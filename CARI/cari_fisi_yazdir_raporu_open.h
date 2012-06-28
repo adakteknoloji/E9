@@ -1,0 +1,8 @@
+#ifndef CARI_FISI_YAZDIR_RAPORU_OPEN_H
+#define CARI_FISI_YAZDIR_RAPORU_OPEN_H
+
+class QString;
+
+QString GET_CARI_FISI_YAZDIR_RAPORU ( int fis_id,int fis_turu );
+
+#endif // CARI_FISI_YAZDIR_RAPORU_OPEN_H

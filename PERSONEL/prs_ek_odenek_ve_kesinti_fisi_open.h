@@ -1,0 +1,8 @@
+#ifndef PRS_EK_ODENEK_VE_KESINTI_FISI_OPEN_H
+#define PRS_EK_ODENEK_VE_KESINTI_FISI_OPEN_H
+
+class QWidget;
+
+void OPEN_PRS_EK_ODENEK_VE_KESINTI_FISI( int p_fis_turu , QWidget * parent );
+
+#endif // PRS_EK_ODENEK_VE_KESINTI_FISI_OPEN_H

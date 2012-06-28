@@ -1,0 +1,8 @@
+#ifndef PRS_IBRANAME_MADDELERI_BATCH_OPEN_H
+#define PRS_IBRANAME_MADDELERI_BATCH_OPEN_H
+
+class QWidget;
+
+void          SHOW_PRS_IBRANAME_MADDELERI_BATCH        ( int firma_id, QWidget * parent );
+
+#endif // PRS_IBRANAME_MADDELERI_BATCH_OPEN_H

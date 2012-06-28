@@ -1,0 +1,8 @@
+#ifndef DMR_YENIDEN_DEGERLEME_FISI_OPEN_H
+#define DMR_YENIDEN_DEGERLEME_FISI_OPEN_H
+
+class QWidget;
+
+void OPEN_DMR_YENIDEN_DEGERLEME_FISI ( int record_id, QWidget * parent );
+
+#endif // DMR_YENIDEN_DEGERLEME_FISI_OPEN_H

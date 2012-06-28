@@ -1,0 +1,8 @@
+#ifndef PRK_FISI_YAZDIR_RAPORU_OPEN_H
+#define PRK_FISI_YAZDIR_RAPORU_OPEN_H
+
+class QString;
+
+QString     GET_PRK_FISI_YAZDIR_RAPORU     ( int fis_id);
+
+#endif // PRK_FISI_YAZDIR_RAPORU_OPEN_H
