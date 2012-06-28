@@ -1,3 +1,12 @@
 Bu yazılım BSD ile lisanslanmıştır.
 
-Lisans detayları için : http://en.wikipedia.org/wiki/BSD_License
+Lisans detayları için ;
+Türkçe : http://tr.wikipedia.org/wiki/BSD_lisans%C4%B1
+English: http://en.wikipedia.org/wiki/BSD_License
+
+
+Bu yazılımı isteyen herkes dilediği şekilde kullanmakta serbesttir.
+İsmi ve logosu da dahil olmak üzere her türlü değişiklikler yapabilir , kopyalayabilir , çoğaltabilir.
+
+İstediği şekilde değiştirerek , yaptığı değişiklikleri paylaşması da gerekmez , ticari olarak ta satabilir.
+
