@@ -1,4 +1,4 @@
-include (ADAK/INCLUDE/adak.pri)
+include (/ADAK/FRAMEWORK/INCLUDE/adak.pri)
 
 QT += sql \
     network \
@@ -7,8 +7,8 @@ QT += sql \
 TARGET   = E9
 TEMPLATE = app
 
-LIBS+= ADAK/$$OBJDIR/$$libADAK
-PRE_TARGETDEPS+= ADAK/$$OBJDIR/$$libADAK
+LIBS+= /ADAK/FRAMEWORK/$$OBJDIR/$$libADAK
+PRE_TARGETDEPS+= /ADAK/FRAMEWORK/$$OBJDIR/$$libADAK
 win32 {
      LIBS += -liphlpapi
 }
